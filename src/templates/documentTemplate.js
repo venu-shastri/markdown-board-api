@@ -97,7 +97,7 @@ export default class Template extends React.Component {
   // Save the marker.  The key is a unique ID formed with the document's ID and a timestamp (this means there is the
   // potential for ID collisions, but the odds are pretty low... but ideally, instead of a timestamp, a GUID would
   // be produced - sounds like a "suggested exercise" to me!).
-  const key = `${this.mr.frontmatter.id}-${new Date().getTime()}`;
+  const key = `${this.mr.frontmatter.id}${new Date().getTime()}`;
   await StorageManager.saveMarkerToStorage(key, marker);
 
   // Clear the range.
