@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"divider":{"childImageSharp":{"gatsbyImageData":{"layout":"fixed","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/37fbd3f9d7b157c492b0af681cd910d2/12bee/divider.png","srcSet":"/static/37fbd3f9d7b157c492b0af681cd910d2/12bee/divider.png 318w","sizes":"318px"},"sources":[{"srcSet":"/static/37fbd3f9d7b157c492b0af681cd910d2/c36f4/divider.webp 318w","type":"image/webp","sizes":"318px"}]},"width":600,"height":25}}},"site":{"siteMetadata":{"title":"Markdown Document Board","description":"White Board-like Application For Collaborative Markup Of Documents","author":"@Venu"}},"allMarkdownRemark":{"edges":[{"node":{"id":"3cddc0e6-7875-5c74-bd18-27fc58974e5b","frontmatter":{"title":"Practical Flutter","slug":"/documents/practical_flutter"}}},{"node":{"id":"dcab4221-6bea-5c0f-98a7-702a68802dcf","frontmatter":{"title":"My first shared document","slug":"/documents/test"}}}]}},"pageContext":{}},
+    "staticQueryHashes": ["3649515864","63159454"]}
