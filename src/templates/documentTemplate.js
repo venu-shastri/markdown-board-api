@@ -203,7 +203,7 @@ let self=this;
     dateTime : new Date().toLocaleDateString(),
     comment : this.state.newComment
   });
-  await StorageManager.saveMarkerToStorage(this.currentMarkerKey, marker);
+  await StorageManager.saveMarkerToStorage(this.currentMarkerKey, marker,true);
 
   // Finally, re-show the comments so the new one is displayed too.
   if(isBrowser){
